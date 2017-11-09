@@ -13,6 +13,7 @@
 		1AD735491FB45B61006D886F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AD735481FB45B61006D886F /* Assets.xcassets */; };
 		1AD7354C1FB45B61006D886F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AD7354A1FB45B61006D886F /* LaunchScreen.storyboard */; };
 		1AD7354F1FB45B61006D886F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7354E1FB45B61006D886F /* main.m */; };
+		1AD735571FB45B7A006D886F /* UIButton+XXF.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD735551FB45B78006D886F /* UIButton+XXF.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		1AD7354B1FB45B61006D886F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1AD7354D1FB45B61006D886F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1AD7354E1FB45B61006D886F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1AD735551FB45B78006D886F /* UIButton+XXF.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+XXF.m"; sourceTree = "<group>"; };
+		1AD735561FB45B7A006D886F /* UIButton+XXF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+XXF.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		1AD7353E1FB45B61006D886F /* UIButton_XXF_Demo */ = {
 			isa = PBXGroup;
 			children = (
+				1AD735561FB45B7A006D886F /* UIButton+XXF.h */,
+				1AD735551FB45B78006D886F /* UIButton+XXF.m */,
 				1AD7353F1FB45B61006D886F /* AppDelegate.h */,
 				1AD735401FB45B61006D886F /* AppDelegate.m */,
 				1AD735421FB45B61006D886F /* ViewController.h */,
@@ -142,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AD735571FB45B7A006D886F /* UIButton+XXF.m in Sources */,
 				1AD735441FB45B61006D886F /* ViewController.m in Sources */,
 				1AD7354F1FB45B61006D886F /* main.m in Sources */,
 				1AD735411FB45B61006D886F /* AppDelegate.m in Sources */,
